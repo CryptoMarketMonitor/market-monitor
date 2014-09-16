@@ -1,4 +1,4 @@
-var io = require('socket.io');
+var io = require('socket.io-client');
 
 var trades = io('http://broadcastserver.azurewebsites.net/BTC/USD/trades');
 var summary = io('http://broadcastserver.azurewebsites.net/BTC/USD/summary');

@@ -86,10 +86,10 @@ Event: 'update'
 
 Timeframes:
 
-*oneMinute
-*fiveMinutes
-*fifteenMinutes
-*oneHour
+oneMinute<br />
+fiveMinutes<br />
+fifteenMinutes<br />
+oneHour<br />
 
 Data Format:
 

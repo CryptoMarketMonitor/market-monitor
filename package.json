@@ -1,5 +1,5 @@
 {
-  "name": "crypto-market-monitor",
+  "name": "market-monitor",
   "version": "0.0.1",
   "description": "An npm module to access Crypto Market Monitor data",
   "main": "main.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CryptoMarketMonitor/crypto-market-monitor.git"
+    "url": "https://github.com/CryptoMarketMonitor/market-monitor.git"
   },
   "author": "Daniel Streit",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CryptoMarketMonitor/crypto-market-monitor/issues"
+    "url": "https://github.com/CryptoMarketMonitor/market-monitor/issues"
   },
-  "homepage": "https://github.com/CryptoMarketMonitor/crypto-market-monitor",
+  "homepage": "https://github.com/CryptoMarketMonitor/market-monitor",
   "dependencies": {
     "socket.io-client": "^1.1.0"
   }

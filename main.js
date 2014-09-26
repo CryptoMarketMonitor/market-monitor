@@ -6,7 +6,9 @@ priceCharts.fiveMinutes = io('http://api.marketmonitor.io:80/BTC/USD/priceCharts
 priceCharts.fifteenMinutes = io('http://api.marketmonitor.io:80/BTC/USD/priceCharts/fifteenMinutes');
 priceCharts.oneHour = io('http://api.marketmonitor.io:80/BTC/USD/priceCharts/oneHour');
 
-module.exports = {
+var monitor = {};
+monitor.btc = {};
+monitor.btc.usd = {
   trades: io('http://api.marketmonitor.io:80/BTC/USD/trades'),
   summary: io('http://api.marketmonitor.io:80/BTC/USD/summary'),
   standardDeviation: io('http://api.marketmonitor.io:80/BTC/USD/standardDeviation'),
@@ -15,4 +17,6 @@ module.exports = {
   volume: io('http://api.marketmonitor.io:80/BTC/USD/volume'),
   priceDistribution: io('http://api.marketmonitor.io:80/BTC/USD/priceDistribution'),
   priceCharts: priceCharts
-};
+  
+}
+module.exports = monitor;

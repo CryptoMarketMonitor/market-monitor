@@ -1,4 +1,4 @@
-var monitor = require('./main');
+var monitor = require('./main').btc.usd;
 
 monitor.trades.on('trade', function(trade) {
   console.log('trade:', trade);

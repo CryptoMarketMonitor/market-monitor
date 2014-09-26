@@ -9,6 +9,12 @@ makes it easy to get data from many exchanges from one source in a
 standardized format. We are planning on adding support for additional exchanges, 
 and additional currency pairs in the near future.
 
+For example usage, see btc.marketmonitor.io
+
+If there is any data you'd like to see added or any comments or critiques of our current
+data streams, please open an issue. We are always looking for feedback and any improvements
+we can make.
+
 Disclaimer: This software and its associated data is provided as is, 
 with no guarantee of validity or accuracy.
 

@@ -27,7 +27,7 @@ Usage:
 
 npm install market-monitor
 
-var monitor = require('market-monitor');
+var monitor = require('market-monitor').btc.usd;
 
 Trades
 =========

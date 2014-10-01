@@ -11,6 +11,9 @@ and additional currency pairs in the near future.
 
 For example usage, see [btc.marketmonitor.io] (http://btc.marketmonitor.io)
 
+See [Broadcast Server] (https://github.com/CryptoMarketMonitor/BroadcastServer) 
+to connect directly to the data with Socket.io.
+
 If there is any data you'd like to see added or any comments or critiques of our current
 data streams, please open an issue. We are always looking for feedback and any improvements
 we can make.
